@@ -1,0 +1,77 @@
+.table__doctors-schedule {
+    width: 100%;
+    background-color: #E8F9FE;
+}
+
+.doctor-schedule {
+    display: flex;
+    justify-content: center;
+}
+
+.doctor-schedule span {
+    width: 39px;
+    height: 43px;
+    display: inline-block;
+    padding: 3px 5px 5px;
+    border-width: 1px 2px 2px;
+    border-style: dashed solid solid;
+    border-color: rgb(0, 0, 0) transparent transparent;
+    border-image: initial;
+    margin-right: 3px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.doctor-schedule__workday {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0,0,0);
+}
+
+.doctor-schedule__today {
+
+}
+
+.doctor-schedule__holiday {
+    background-color: rgb(221, 183, 173);
+    color: rgb(255, 255, 255);
+}
+
+.table__doctors-schedule td {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.doctors__td_additional-data {
+
+}
+
+.doctors__td_additional-data span {
+    height: 50px;
+    margin-right: 15px;
+    border: 4px solid #a4afb5;
+    padding: 6px 14px;
+}
+
+.doctors__td_first {
+    width: 20%;
+}
+
+.doctors__td_second {
+    width: 30%;
+    height: 59px;
+}
+.tr:hover .doctors__td_second {
+    background-color: #fff!important;
+}
+
+.doctors__td_second table td{
+    border: 2px solid #97989d;
+    text-align: center;
+}
+
+.doctors__td_third {
+    width: 50%;
+    height: 59px;
+}
